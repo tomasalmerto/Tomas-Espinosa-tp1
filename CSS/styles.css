@@ -12,7 +12,6 @@ main{
 img {
     max-width: 100%;
     height: auto;
-    display: block;
 }
 
 .imagenRivals {
@@ -21,8 +20,8 @@ img {
 
 footer{
     background-color:darkslategrey;
-    padding: 40px 20px;
-    min-height: 100px;
+    padding: 10px 10px;
+    min-height: 50px;
 }
 
 .listaFooter{
@@ -37,6 +36,7 @@ footer{
 .textoDerecha{
     display: flex;
     gap: 20px;
+    color: white;
 }
 
 .textoizquierda{
