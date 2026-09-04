@@ -37,9 +37,77 @@ footer{
     display: flex;
     gap: 20px;
     color: white;
+    font-size: 20px;
 }
 
 .textoizquierda{
     display: flex;
     gap: 20px;
+}
+
+.seccion1{
+    background-color:aqua ;
+    padding: 20px 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.columnaizquierda h1{
+    font-size: 40px;
+    margin-bottom: 12px;
+    color: black;
+}
+
+.columnaizquierda p{
+    font-size:  20px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.columnaDerecha img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.seccion2{
+    background-color:white ;
+}
+
+.seccion3{
+    background-color:lightgray ;
+}
+
+.seccion4{
+    background-color:white ;
+}
+
+.seccion5{
+    background-color:lightgray ;
+}
+
+@media (min-width: 768px){
+
+    .textoDerecha{
+        font-size: 40px;
+    }
+
+    .seccion1{
+        flex-direction: row;
+        text-align: left;
+        justify-content: space-between;
+    }
+
+    .columnaDerecha{
+        flex: 1;
+    }
+
+    .columnaizquierda{
+        flex: 1;
+    }
+
 }
