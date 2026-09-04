@@ -1,3 +1,45 @@
+body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 .imagenRivals {
     margin-left: 10px;
+}
+
+footer{
+    background-color:darkslategrey;
+    padding: 40px 20px;
+    min-height: 100px;
+}
+
+.listaFooter{
+    text-align: end;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.textoDerecha{
+    display: flex;
+    gap: 20px;
+}
+
+.textoizquierda{
+    display: flex;
+    gap: 20px;
 }
