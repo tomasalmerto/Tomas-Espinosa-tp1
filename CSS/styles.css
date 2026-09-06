@@ -122,14 +122,21 @@ footer{
 
 .seccion3{
     background-color:lightgray ;
+    width: 100%;
+    padding: 20px 15px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.seccion3 img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
 }
 
 .seccion4{
     background-color:white ;
-}
-
-.seccion5{
-    background-color:lightgray ;
 }
 
 @media (min-width: 768px){
