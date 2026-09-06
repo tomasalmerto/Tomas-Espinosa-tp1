@@ -139,6 +139,10 @@ footer{
     background-color:white ;
 }
 
+.seccion4 p{
+    font-size:  30px;
+}
+
 @media (min-width: 768px){
 
     .textoDerecha{
